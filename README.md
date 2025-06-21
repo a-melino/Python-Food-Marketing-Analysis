@@ -1,6 +1,6 @@
-# Python and Pandas: UFood Marketing Data Analysis Project
+# Python and Pandas: UFood Marketing Data Analysis
 
-![Header](Images/header.png)
+![Header](Images/header2.png)
 
 #
 #### by Alex Melino
