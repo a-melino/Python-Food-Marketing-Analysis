@@ -8,7 +8,7 @@
 
 ### Background
 
-The following is a sample project showcasing data analysis techniques for a business problem. The project uses python to clean and analyze data and provide visualizations. The a copy of the business problem, objectives and other information seen below can be found in the 'Resources' folder of this repo as 'UFood Data Analyst Case.pdf'. In that folder is also the data set, 'u_food_marketing.xlsx', and a dictionary for column titles, 'ufood_marketing_Dictionary.png'.
+The following is a sample project showcasing data analysis techniques for a business problem. The project uses python to clean and analyze data and provide visualizations. A copy of the business problem, objectives and other information seen below can be found in the 'Resources' folder of this repo as 'UFood Data Analyst Case.pdf'. In that folder is also the data set, 'u_food_marketing.xlsx', and a dictionary for column titles, 'ufood_marketing_Dictionary.png'.
 
 The analysis is done with Python with the following required libraries: pandas, seaborn, and matplotlib. 
 
@@ -72,7 +72,7 @@ The code for these data cleaning steps was as follows:
 
 ![code1](Images/code1.png)
 
-The final step was to create a column that separated each customer into age brackets. This would allow for easy customer categorization accross the age ranges and would allow for easy visualzation of patterns or trends with respect to age. 
+The final step was to create a column that separated each customer into age brackets. This would allow for easy customer categorization across the age ranges and would allow for easy visualization of patterns or trends with respect to age. 
 
 The code for this was as follows:
 
@@ -82,7 +82,7 @@ The code for this was as follows:
 
 ### Analysis and Visualization
 
-The first analysis was done on the age groups. Visualizations were created for campaing acceptance rate by age, percentage of total customers by age, amount spent per age group, and amount spent when accepting marketing campaigns by age group. 
+The first analysis was done on the age groups. Visualizations were created for campaign acceptance rate by age, percentage of total customers by age, amount spent per age group, and amount spent when accepting marketing campaigns by age group. 
 
 These are the visualizations that were generated for these metrics:
 
@@ -91,7 +91,7 @@ These are the visualizations that were generated for these metrics:
 ![plot3](Images/plot3.png)
 ![plot4](Images/plot4.png)
 
-These plots showed that younger and older people accepted campaigns at a higher rate (but with wider confidence levels), but middle aged people by far made up the bulk of volume for purchasing.
+These plots showed that younger and older people accepted campaigns at a higher rate (but with wider confidence levels), but middle-aged people by far made up the bulk of volume for purchasing.
 
 Next, the analysis moved on to types of purchase. The three types, web purchases, catalogue purchases, and in-store purchases, were visualized, both for total sales and by sales when accepting marketing campaigns. 
 
@@ -137,7 +137,7 @@ Widowed and divorced people made up a much smaller subset of the data, so the sp
 
 1. Age - 30-69 were spending more money but less likely to accept campaigns, but there was higher volume here though which should be taken into consideration.
 
-2. Catalogue customers were more likely to accept campaigns, but in-person customers spent more. To capture benefits from both of these findings, a split etween the types is recommended:
+2. Catalogue customers were more likely to accept campaigns, but in-person customers spent more. To capture benefits from both of these findings, a split between the types is recommended:
 
     40% catalogue, 30% in-store, 30% web
 
@@ -145,11 +145,11 @@ Widowed and divorced people made up a much smaller subset of the data, so the sp
 
 4. Education level had a minor effect on campaign acceptance rate and spending with higher educated people spending only slightly more.
 
-5. Marital status had a minor or neglible effect on campaign acceptance rate and spending.
+5. Marital status had a minor or negligible effect on campaign acceptance rate and spending.
 
 
 #### Recommendations for Increased Revenue
-- To enhase current operation and get more out of the current bulk of the customer base, there should be a focus on middle aged people, high earners, with no kids. They should be targeted on different platforms with split mentioned above.
+- To enhance current operation and get more out of the current bulk of the customer base, there should be a focus on middle aged people, high earners, with no kids. They should be targeted on different platforms with split mentioned above.
 
 #### Recommendations for Untapped Markets
 -  To capture new customers and markets, there should be a focus on customers under 30 and over 70 as they accepted campaigns at a higher rate. In addition, marketing to families with children would also help reach a larger market.
